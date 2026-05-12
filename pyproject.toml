@@ -5,5 +5,13 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
+    "aiofiles>=25.1.0",
+    "beautifulsoup4>=4.14.3",
+    "customtkinter>=5.2.2",
+    "httpx>=0.28.1",
+    "openai-whisper",
     "openai>=2.36.0",
+    "pillow>=12.2.0",
+    "tqdm>=4.67.3",
+    "yt-dlp>=2026.3.17",
 ]
